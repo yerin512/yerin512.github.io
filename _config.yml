@@ -43,16 +43,14 @@ author: yerin512
 copyright: "Unpublished Work (cleft) 2017-{currentYear} {author}"
 
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Today I Learned.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://yerin512.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 favicon: "" # the favicon for your site
 
 # Yat date format
-# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to cu```stomize this
 yat:
   date_format: "%b %d, %Y"
 
@@ -156,9 +154,9 @@ yat:
 # Page default value
 # defaults:
 #   home:
-#     heading: "생각하고 개발하자!"
-#     subheading: "작심삼일도 33.3333333번 하면 100 번이 됩니다."
-#     banner: "https://user-images.githubusercontent.com/73337811/104746344-7c77cd80-5792-11eb-9144-210344ac0546.jpg"
+#     heading: "Your awesome heading"
+#     subheading: "Your awesome subheading"
+#     banner: "Your image url"
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
@@ -171,7 +169,7 @@ yat:
 #   image: null             # Image banner source
 #   opacity: 1.0            # Banner opacity (100% is 1.0)
 #   background: "rgba(0, 0, 0, 0.8)"  # Banner background (Could be a image)
-#   height: "300px"         # Banner default height
+#   height: "640px"         # Banner default height
 #   min_height: null        # Banner minium height
 #   heading_style: null     # Custom heading style (e.g. "font-weight: bold; text-decoration: underline")
 #   subheading_style: null  # Custom subheading style (e.g. color: gold)

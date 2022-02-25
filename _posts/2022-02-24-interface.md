@@ -76,7 +76,8 @@ interface ToyCar extends Car, Toy {
 
   // 선택적 매개변수, 필수적 매개변수
 
-```
+```typescript
+
   function add(num1: number, num2: number): void {
     num1 + num2;
   }

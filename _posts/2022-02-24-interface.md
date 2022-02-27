@@ -6,7 +6,7 @@ categories: TypeScript
 tags: [TIL, TypeScript]
 ---
 
-# 03 interface - implements
+# 03 interface - implements 
 
 ```typescript
 

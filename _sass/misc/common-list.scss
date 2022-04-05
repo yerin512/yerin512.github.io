@@ -2,7 +2,7 @@
  * Common list
  */
 .common-list {
-  @include relative-font-size(1.0);
+  @include relative-font-size(1);
   min-width: 200px;
 
   ul {
@@ -15,6 +15,7 @@
 
     &:last-child {
       border-bottom: none;
+      display: none;
     }
 
     a {

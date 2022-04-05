@@ -2,8 +2,8 @@
 layout: post
 title: MouseEvent.clientX
 subtitle: MouseEvent.clientX
-categories: Javascript
-tags: [TIL, Javascript]
+categories: JavaScript
+tags: [TIL, JavaScript]
 ---
 
 ![image](https://user-images.githubusercontent.com/73337811/161739561-23ac0704-293a-4ca2-a95d-b33928142afc.png)

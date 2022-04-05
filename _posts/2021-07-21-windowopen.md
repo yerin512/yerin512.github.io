@@ -2,7 +2,7 @@
 layout: post
 title: window.open() 후, 창 닫힘 감지하는 법
 subtitle: beforeunload
-categories: Algorithm
+categories: Javascript
 tags: [TIL, Javascript]
 ---
 

@@ -1,0 +1,51 @@
+
+
+[TypeScript Toy Project] MiniGame | 달리기 게임 만들기 토이프로젝트
+
+
+``` 
+타입스크립트를 가볍게 사용해보기 위하여 회사 동기분들과 간단한 미니게임 토이프로젝트를 진행 하기로 했습니다. 제가 맡은 게임은 달리기 게임인데요. canvas를 이용하여 생성한 오브젝트가 장애물 오브젝트를 만나면 이벤트( 피가 깎임, 게임오버)가 나타나는 간단한 게임입니다.
+구글에서 인터넷이 끊길 경우 만날 수 있는 공룡 달리기 게임과 같습니다.
+
+```
+
+# 1. 
+
+Next.js + Typescript 조합으로 프로젝트를 진행하기로 했는데요.
+회사에서는 React JS로 서비스 운영 중인데
+사용하다보니 아쉬운 부분이 있었습니다.
+
+특히 두 가지 단점이 있죠.
+리액트는 SPA(Single Page Application)로 CSR(Client Side Rendering) 방식이라 프로젝트 초반에는 괜찮았지만 여러 서비스가 추가되고 사이트 규모가 커지게 되면 초기에 로딩 하게 되는 JS 파일의 크기가 늘어나 초기 로딩 시간이 꽤 많이 소요되었습니다.
+모든 서비스가 그러겠지만 B2C 서비스 특성 상 처음에 접근할 때부터 시간이 소요하면 상당히 마이너스 요소가 되죠.
+
+또 SEO(검색 엔진 최적화) 관련 문제에 대한 단점도 느꼈습니다. 여러 서비스의 링크를 복사해서 sns에 공유할 때 meta tag가 index.html에 고정된 값만 가져와서 어떤 링크를 뿌려도 똑같은 사이트 썸네일이 떴습니다. 이를 해결하기위해 Next.js로 마이그레이션은 프로젝트의 사이즈가 작지않아 위험부담이 있어 react-snap이라는 라이브러리를 사용하려 했었는데, 결론부터 말하자면 실패했습니다.
+
+처음부터 NextJS 로 시작했으면 좋았겠다... 라는 생각이 들었습니다.
+그래서 이번에 Next.js + Typescript 조합으로 토이 프로젝트를 진행하게 되었습니다.
+
+
+# 2. 초기 세팅
+
+## 2.1 설치 with TS
+
+```
+  yarn create next-app --typescript
+
+```
+
+## 2.2 Eslint + prettier 설정
+
+```
+
+yarn add -D eslint 
+               prettier 
+               eslint-plugin-prettier 
+               eslint-config-prettier 
+               eslint-plugin-import 
+               eslint-plugin-react 
+               eslint-plugin-react-hooks 
+               @typescript-eslint/parser 
+               @typescript-eslint/eslint-plugin
+
+```

@@ -1,16 +1,13 @@
 ---
 layout: post
-title: JavaScript 기본상식1
-subtitle: JavaScript기본상식1
+title: JavaScript기본상식1
+subtitle: JavaScript 기본상식1
 categories: JavaScript
 tags: [TIL, JavaScript, 면접준비]
 ---
 
 ### 개발 기본 상식
 ``출처 : https://github.com/junh0328/prepare_frontend_interview/ ``
-
-
-
 
 
 

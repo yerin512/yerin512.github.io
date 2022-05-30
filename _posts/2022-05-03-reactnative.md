@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 화면 스크롤 이동
+title: 리애트 네이티브 안드로이드 스튜디오 환경셋팅 
 subtitle: React-Native
 categories: Troubleshooting
 tags: [TIL, React-Native, Troubleshooting]
